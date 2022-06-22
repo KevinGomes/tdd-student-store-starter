@@ -10,9 +10,6 @@ export default function Home(props) {
   )
 }
 
-
-
-
 function ProductGridWapper(props) {
   return(
     <div className="grid-container">
@@ -25,11 +22,16 @@ function ProductCard(props) {
   let numofItems = 0
 
   function Increment() {
-    return numofItems++
+    numofItems++
+    console.log(numofItems)
+  }
+
+  function Decrement() {
+    numofItems--
   }
 
   return(
-    <div className="product-card" onClick={Increment}>
+    <div className="product-card" >
       <div className="product-img">
         <img src={props.product.image} alt="product cover" loading="lazy"/>
       </div>
@@ -37,6 +39,11 @@ function ProductCard(props) {
         <div className="main-info">
           <p>{props.product.name}</p>
           <p>{props.product.price}</p>
+          <div className="bottom-info">
+            <button onClick={Decrement}>-</button>
+            <p>{numofItems}</p>
+            <button onClick={Increment}>+</button>
+          </div>
         </div>
       </div>
     </div>

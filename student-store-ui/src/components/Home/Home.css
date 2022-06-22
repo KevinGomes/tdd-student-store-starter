@@ -10,7 +10,7 @@
 .grid-container {
 display: flex;
 flex-wrap: wrap;
-gap: 20px;
+gap: 30px;
 
 justify-content: space-evenly;
 justify-items: center;
@@ -33,6 +33,11 @@ align-items: center;
   flex-direction: column;
   border: solid 1px gray;
   max-width: 800px;
+}
+
+.bottom-info{
+  display: flex;
+  flex-direction: row;
 }
 
 .grid-container .product-card img {
