@@ -18,8 +18,8 @@ Selling merchandise in the modern era requires digital solutions. For this proje
 - [x] User can click to expand the shopping cart in the left navigation.
 - [x] User can click the '+' button on a product cart to increment that product in the shopping cart.
 - [x] User can click the '-' button on a product cart to increment that product in the shopping cart.
-- [ ] Shopping cart displays a table of products, quantities, subtotal, tax, and total.
-- [ ] User can check out, and can view receipt upon completion.
+- [x] Shopping cart displays a table of products, quantities, subtotal, tax, and total.
+- [x] User can check out, and can view receipt upon completion.
 
 #### Stretch Features
 
@@ -55,11 +55,11 @@ The following specifications were met on the Express backend and the React front
       - [x] Each object in the array should have two fields:
         - [x] The `itemId` field should store the `id` of the item being purchased.
         - [x] The `quantity` field should store a number representing how many of that item the user is purchasing.
-    - [ ] `checkoutForm` - the user's information that will be sent to the API when they checkout.
-  - [ ] Leverage the `useEffect` hook to ensure that when the `App.jsx` component is mounted to the screen...
-    - [ ] It should make a `GET` request to the API's `/store` endpoint with the `axios.get` method.
-    - [ ] When the request completes successfully, it should store the `products` returned by the response in state.
-    - [ ] If the request does not complete successfully, or there are no `products` found in the response,
+    - [x] `checkoutForm` - the user's information that will be sent to the API when they checkout.
+  - [x] Leverage the `useEffect` hook to ensure that when the `App.jsx` component is mounted to the screen...
+    - [x] It should make a `GET` request to the API's `/store` endpoint with the `axios.get` method.
+    - [x] When the request completes successfully, it should store the `products` returned by the response in state.
+    - [x] If the request does not complete successfully, or there are no `products` found in the response,
             it should create an error message and store it in the `error` state variable.
   - [x] The `App.jsx` component should define handler functions to be passed as props to the `Home` and `ProductDetail` components.
     - [x] Define as many as are needed.
@@ -93,7 +93,7 @@ The following specifications were met on the Express backend and the React front
             - [x] Each object in the array should have two fields:
               - x ] The `itemId` field should store the `id` of the item being purchased.
               - [x] The `quantity` field should store a number representing how many of that item the user is purchasing.
-            - [ ] Don't include the `total` price here, since we'll be calculating that on the backend. Remember to never trust the client!
+            - [x] Don't include the `total` price here, since we'll be calculating that on the backend. Remember to never trust the client!
 
 **Navbar.jsx**
 
