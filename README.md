@@ -4,7 +4,7 @@
 
 Selling merchandise in the modern era requires digital solutions. For this project, you'll be tasked with designing and constructing an online student store for the College of Codepath. The application entails a frontend user interface for potential customers to peruse the goods, and a backend API to handle data management. The API will be built with Node and Express and the UI will be built with React.
 
-// Include your gif here
+![](https://github.com/KevinGomes/tdd-student-store-starter/blob/main/walkthrough_student_store_00.gif)
 
 ### Application Features
 
@@ -91,7 +91,11 @@ The following specifications were met on the Express backend and the React front
           - [x] The `shoppingCart` field:
             - [x] Should contain the user's order formatted as an array of objects.
             - [x] Each object in the array should have two fields:
+<<<<<<< HEAD
               - [x] The `itemId` field should store the `id` of the item being purchased.
+=======
+              - x ] The `itemId` field should store the `id` of the item being purchased.
+>>>>>>> 3ea9e1d0863757fee8992331fac9caeaa50b5c82
               - [x] The `quantity` field should store a number representing how many of that item the user is purchasing.
             - [x] Don't include the `total` price here, since we'll be calculating that on the backend. Remember to never trust the client!
 
