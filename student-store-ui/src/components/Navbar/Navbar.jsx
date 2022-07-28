@@ -1,12 +1,12 @@
 import * as React from "react"
-//import Icon from "../../../assets/codepath.png"
+import Logo from "../Logo/Logo"
 import "./Navbar.css"
 
 export default function Navbar(props) {
   console.log(props.navlinks)
   return (
     <nav className="navbar">
-      <SiteIcon />
+      <Logo />
       <NavLinks navLinks={props.navLinks}/>
     </nav>
   )
@@ -27,13 +27,5 @@ export function NavLink({navLink}) {
     <li>
       <span>{navLink}</span>
     </li>
-  )
-}
-
-export function SiteIcon() {
-  return (
-    <div className="site-icon">
-      
-    </div>
   )
 }
