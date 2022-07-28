@@ -6,6 +6,8 @@ Selling merchandise in the modern era requires digital solutions. For this proje
 
 ![](https://github.com/KevinGomes/tdd-student-store-starter/blob/main/walkthrough_student_store_00.gif)
 
+![](https://github.com/KevinGomes/tdd-student-store-starter/blob/main/walkthrough_student_store_01.gif)
+
 ### Application Features
 
 #### Core Features
